@@ -1,0 +1,10 @@
+img.logo {
+  height: 35px;
+}
+
+a.nav-item {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c83f4a;
+}
