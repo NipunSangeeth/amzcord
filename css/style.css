@@ -6,5 +6,18 @@ a.nav-item {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
-    color: #c83f4a;
+    color: white;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    position: fixed;
+}
+
+a.nav-item:hover {
+    color: #b81822;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.w-100 {
+    padding-left: 10%;
+    padding-right: 10%;
 }
