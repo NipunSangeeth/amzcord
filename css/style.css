@@ -9,6 +9,10 @@ a.nav-item {
   color: white;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.w-100 {
+    height: 70px;
+}
+
 nav.navbar.navbar-expand-lg.navbar-light {
   position: fixed;
 }
