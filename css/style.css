@@ -72,10 +72,8 @@ p {
 }
 
 button.btn.btn-danger {
-    background-color: #9a131e;
-    border: 1px solid #99121c;
-    /* font-size: 15px; */
-    font-family: Raleway;
-
-
+  background-color: #9a131e;
+  border: 1px solid #99121c;
+  font-family: Raleway;
+  letter-spacing: 1.5px;
 }
