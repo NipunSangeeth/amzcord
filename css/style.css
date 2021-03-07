@@ -3,21 +3,46 @@ img.logo {
 }
 
 a.nav-item {
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light {
-    position: fixed;
+  position: fixed;
 }
 
 a.nav-item:hover {
-    color: #b81822;
+  color: #b81822;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.w-100 {
-    padding-left: 10%;
-    padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: -webkit-xxx-large;
+}
+
+.subtitle {
+  font-size: small;
+}
+
+button.btn.btn-danger {
+  height: 30px;
+  width: 120px;
+  font-size: 12px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
