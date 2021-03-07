@@ -35,3 +35,22 @@ i.fas.fa-bars {
 li.nav-item:hover {
   color: red;
 }
+
+i.fas.fa-bars {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+nav.navbar.navbar-expand-lg.fixed-top {
+    height: 150px;
+}
+
+nav.navbar.navbar-expand-lg.fixed-top {
+    padding-left: 10%;
+    padding-right: 10%;
+}
