@@ -68,7 +68,8 @@ h1 {
 p {
   color: #828282;
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 16px;
+  text-align:justify !important ;
 }
 
 button.btn.btn-danger {
