@@ -1,0 +1,182 @@
+@media (max-width: 991px) {
+
+  /* =========================== MAIN MENU===========================  */
+  div#main-menu .navbar-collapse {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    transition: all 0.3s ease;
+    /* display: block; */
+    z-index: -1;
+    height: 100vh;
+    padding-bottom: 1000px;
+  }
+
+  div#main-menu .navbar-collapse.collapsing {
+    height: auto !important;
+    margin-right: 50%;
+    transition: all 0.3s ease;
+    display: block;
+  }
+
+  div#main-menu .navbar-collapse.show {
+    left: 50%;
+    transition: all 0.3s ease;
+    background: #1e1e53;
+    opacity: 90%;
+  }
+
+  div#main-menu .fixed-top-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  div#main-menu .navbar-brand img.img-fluid {
+    max-width: 66%;
+  }
+
+  div#main-menu ul.navbar-nav {
+    padding: 65px 27px;
+    margin-right: 63%;
+  }
+
+  div#main-menu li.nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    padding: 7px 0px;
+  }
+
+  div#main-menu nav.navbar.inner-pages-menu {
+    padding: .7rem 1rem;
+  }
+
+  div#main-menu a.nav-link {
+    padding-left: 0;
+  }
+
+  div#main-menu li.nav-item:last-child a.nav-link {
+    background: none;
+    margin-left: auto;
+    border: none;
+    padding-left: 0;
+    padding: .5rem 0rem;
+  }
+
+  div#main-menu li.nav-item:last-child {
+    border: none;
+  }
+
+  div#main-menu li.nav-item:last-child a.nav-link:hover {
+    border: none;
+  }
+
+  /* div#main-menu .scrolled-nav {
+  padding: .5rem 1rem;
+  } */
+  div#main-menu .scrolled-nav .img-fluid {
+    padding: 4px 5px 4px 12px;
+    transition: .5s;
+  }
+
+  /* ============================ MAIN BANNER =========================== */
+  /* div#main-banner .banner-caption {
+  padding-top: 15%;
+  } */
+  div#main-banner .banner-caption h1 {
+    padding-bottom: 25px;
+  }
+
+  /* div#main-banner {
+  height: 52vh;
+  } */
+  div#main-banner .banner-caption h4 {
+    font-size: 20px;
+  }
+
+  /* ============================ OUR STACKS =========================== */
+  div#stacks .stacks-wrapper p.first-stack {
+    margin-left: 10%;
+  }
+
+  div#stacks .stacks-wrapper p.second-stack {
+    margin-left: 29%;
+  }
+
+  div#stacks .stacks-wrapper p.third-stack {
+    margin-left: 39%;
+  }
+
+  /* ============================ CASE STUDIES  =========================== */
+  div#online-courses .online-courses-div {
+    padding: 15px 0px;
+  }
+
+  div#online-courses .online-courses-div p {
+    padding: 15px 30px 5px 30px;
+  }
+
+  /* ========================== OUR PRODUCTS ========================= */
+  div#products-page .product-item-div .product-items {
+    display: -webkit-box;
+    height: 55px;
+    margin-bottom: 15px;
+    padding: 10px;
+    max-width: initial;
+  }
+
+  div#products-page .product-item-div .product-items img.icon {
+    width: 18%;
+    display: block;
+  }
+
+  div#products-page .product-item-div .product-items h6 {
+    padding-top: 3px;
+  }
+
+  div#category table.table.category-table td.category-name span {
+    padding: 4px 0px;
+    width: 177px;
+  }
+
+  div#testimonials .carousel.slide::after {
+    width: 10%;
+  }
+
+  /* ************** SEARCH RESULTS PAGE ***************** */
+  /* =========================== SEARCH RESULTS  ======================= */
+  div#search-results .detail a.find-btn {
+    margin-top: 15px;
+  }
+
+  /* ************** SINGLE sub PRODUCTS PAGE ***************** */
+  /* =========================== SINGLE SUB PRODUCTS  ======================= */
+  /* div#single-sub-products {
+  padding-top: 12%;
+  } */
+}
+
+@media (max-width: 767px) {
+
+  div#single-sub-products,
+  div#about,
+  div#venue-dates,
+  #single-products,
+  .details-page {
+    padding-top: 12%;
+  }
+
+  div#main-menu .navbar-collapse.show {
+    left: 0%;
+  }
+
+  div#main-menu ul.navbar-nav {
+    padding: 120px 27px 65px 28px;
+    margin-right: auto;
+    text-align: center;
+  }
