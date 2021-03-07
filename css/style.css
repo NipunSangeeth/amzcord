@@ -27,7 +27,7 @@ nav.navbar.navbar-expand-lg.navbar-light.w-100 {
 }
 
 .cover {
-  background-image: url(../images/coverImage.png);
+  background-image: url(../images/CoverImage2.png);
   background-size: cover;
   padding: 340px;
 }
@@ -69,4 +69,13 @@ p {
   color: #828282;
   font-family: Raleway;
   font-size: 18px;
+}
+
+button.btn.btn-danger {
+    background-color: #9a131e;
+    border: 1px solid #99121c;
+    /* font-size: 15px; */
+    font-family: Raleway;
+
+
 }
