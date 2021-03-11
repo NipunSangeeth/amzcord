@@ -113,12 +113,15 @@
     </div>
   </div>
 
-  <div class="container">
-    <h1 class="text-center">WE DRIVE INNOVATIVE TO MOVE INDUSTRIES</h1><br>
+  <!-- <div class="container-fluid section"> -->
+  <div class="container-fluid section">
+    <div class="row cardTitle">
+      <h1 class="text-center">WE DRIVE INNOVATIVE TO MOVE INDUSTRIES</h1><br>
+    </div>
     <div id="myDIV">
       <div class="row">
         <div class="col-12 badgerow">
-          <div class="badge animate__animated animate__flip">
+          <div class="badge animate__animated animate__flipInY">
             <i class="fa fa-medkit" style="font-size:48px;"></i><br><br>
             HealthCare
           </div>
@@ -156,7 +159,15 @@
         </div>
       </div>
       <br><br>
+      <!-- </div> -->
     </div>
+  </div>
+  <div class="container text-center">
+    <h1 class="text-center">High-end project execution by experienced product builders.</h1><br>
+    <p>
+      Amzcord designs and builds digital solutions to solve business problems and bring innovative ideas to life. Our team of experienced software engineers, architects, DevOps engineers, designers and project managers lead by the CEO who built and
+      successfully sold multiple startups partner with you to assure the success of your project.
+    </p>
   </div>
 
 <<<<<<< HEAD
@@ -260,10 +271,6 @@
         <h5><b>Company</b></h5><br>
         <label for="">Whats New</label><br>
         <label for="">Whats New</label>
-        <!-- <ul class="text-left">
-          <li>Whats New</li><br>
-          <li>Whats New</li>
-        </ul> -->
       </div>
       <div class="col-3">
         <h5><b>Services</b></h5><br>
@@ -309,9 +316,9 @@
   var btns = header.getElementsByClassName("badge");
   for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("animate__animated animate__flip");
-      current[0].className = current[0].className.replace(" animate__animated animate__flip", "");
-      this.className += " animate__animated animate__flip";
+      var current = document.getElementsByClassName("animate__animated animate__flipInY");
+      current[0].className = current[0].className.replace(" animate__animated animate__flipInY", "");
+      this.className += " animate__animated animate__flipInY";
     });
   }
 </script>

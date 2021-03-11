@@ -139,16 +139,17 @@ h1.title {
   margin-left: 15px;
   width: 20%;
   height: 100%;
+  box-shadow: 1px 5px 10px grey;
   /* margin-left: 50px;
   margin-right: 50px; */
   /* z-index: -1; */
 }
 
-.badge.animate__animated.animate__flip {
+.badge.animate__animated.animate__flipInY {
   background-color: #bd1622;
   color: white;
-  z-index: -1;
-  position: relative;
+  /* z-index: -1;
+  position: relative; */
 }
 
 .col-12.badgerow {
@@ -158,4 +159,15 @@ h1.title {
 
 .col-12.secondPart {
   padding-top: 35px;
+}
+
+.container-fluid.section {
+  padding-bottom: 70px;
+  background-color: #f7f8fc;
+  padding-top: 60px;
+}
+
+.row.cardTitle {
+  padding-bottom: 70px;
+  padding-top: 50px;
 }
