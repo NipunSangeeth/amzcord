@@ -79,9 +79,9 @@
   /* div#main-menu .scrolled-nav {
   padding: .5rem 1rem;
   } */
-  div#main-menu .scrolled-nav .img-fluid {
-    padding: 4px 5px 4px 12px;
-    transition: .5s;
+  div#main-menu .scrolled-nav {
+    background-color: : red;
+    /* transition: .5s; */
   }
 
   /* ============================ MAIN BANNER =========================== */
