@@ -121,7 +121,7 @@
     <div id="myDIV">
       <div class="row">
         <div class="col-12 badgerow">
-          <div class="badge animate__animated animate__flip">
+          <div class="badge animate__animated animate__flipInY">
             <i class="fa fa-medkit" style="font-size:48px;"></i><br><br>
             HealthCare
           </div>
@@ -224,9 +224,9 @@
   var btns = header.getElementsByClassName("badge");
   for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("animate__animated animate__flip");
-      current[0].className = current[0].className.replace(" animate__animated animate__flip", "");
-      this.className += " animate__animated animate__flip";
+      var current = document.getElementsByClassName("animate__animated animate__flipInY");
+      current[0].className = current[0].className.replace(" animate__animated animate__flipInY", "");
+      this.className += " animate__animated animate__flipInY";
     });
   }
 </script>

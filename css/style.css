@@ -141,7 +141,7 @@ h1.title {
   /* z-index: -1; */
 }
 
-.badge.animate__animated.animate__flip {
+.badge.animate__animated.animate__flipInY {
   background-color: #bd1622;
   color: white;
   /* z-index: -1;
