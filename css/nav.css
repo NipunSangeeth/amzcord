@@ -63,24 +63,25 @@ li.nav-item {
   font-family: Raleway;
 }
 
-.black{
-  position:fixed;
-  width:100%;
-  height:75px;
-
+.black {
+  position: fixed;
+  width: 100%;
+  height: 75px;
 }
 
-.blue{
-  position:fixed;
-  top:0;
-  background:blue;
-  width:100%;
-  height:50px;
-  /* background: #fff; */
+.blue {
+  position: fixed;
+  top: 0;
+  background: blue;
+  width: 100%;
+  height: 50px;
   overflow: hidden;
-  /* color: #000; */
   line-height: 50px;
-
   transition: all .5s ease-in-out;
   height: 0;
+  /* z-index: 10; */
+}
+
+div#main-menu {
+  z-index: 10;
 }
