@@ -1,18 +1,53 @@
 footer {
-  background-color: #212529;;
-  height: 300px;
-  /* width: 100px; */
+  background-color: #212529;
 }
 
 .container.text-white {
-  padding-top: 150px;
+  /* padding-top: 150px; */
   text-align: center;
 }
 
 ul {
   list-style-type: none;
 }
+
 .row.lowerpart {
-    background-color: #770e16;
-    height: 50px;
+  background-color: #770e16;
+  height: 50px;
+}
+
+label.text-white.footerstitle {
+  padding-top: 15px;
+  padding-left: 50px;
+  color: #757d84 !important;
+}
+
+.col-6.brands {
+  padding-top: 10px;
+  text-align: end;
+  padding-right: 50px;
+}
+
+i.fa.fa-facebook-square {
+  color: #0043ff;
+}
+
+i.fa.fa-linkedin {
+  color: #0043ff;
+  padding-right: 10px;
+
+}
+
+i.fa.fa-facebook-square {
+    padding-right: 10px;
+}
+
+i.fa.fa-envelope {
+    padding-right: 10px;
+    color: white;
+}
+
+i.fa.fa-instagram {
+    padding-right: 10px;
+    color: white;
 }

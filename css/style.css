@@ -168,3 +168,56 @@ h1.title {
   padding-bottom: 70px;
   padding-top: 50px;
 }
+
+/* Contact us page css */
+h3.subTitle {
+  font-weight: 200;
+}
+
+.container.form {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+label.title.dotted.text-danger {
+  color: #bd1622;
+  font-size: 100px;
+}
+
+form {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+input.form-control {
+  border: none;
+  border-bottom: 1px solid #959ba1;
+  border-radius: inherit;
+}
+
+button.btn.btn-primary {
+  float: right;
+}
+
+button.btn.btn-primary {
+  float: right;
+  border-radius: 0px;
+  background-color: #bd1622;
+  border: 1px solid #bd1622;
+}
+
+textarea.form-control {
+  border: none;
+  border-bottom: 1px solid #959ba1;
+  border-radius: 0px;
+}
+
+@media only screen and (max-width: 320px) {
+  h1.title.animate__flip {
+    font-size: 200em;
+  }
+}
