@@ -173,6 +173,7 @@ button.btn.btn-danger {
 .badge.animate__animated.animate__flipInY {
   background-color: #bd1622;
   color: white;
+  fill:white;
   /* z-index: -1;
   position: relative; */
 }
@@ -206,6 +207,13 @@ button.btn.btn-danger {
 /* Contact us page css */
 h3.subTitle {
   font-weight: 200;
+}
+
+#Layer_1{
+
+  width: 200px;
+
+  fill:white;
 }
 
 .container.form {
