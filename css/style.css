@@ -171,6 +171,10 @@ button.btn.btn-danger {
 .badge.animate__animated.animate__flipInY {
   background-color: #bd1622;
   color: white;
+  <<<<<<< HEAD=======fill: white;
+  /* z-index: -1;
+  position: relative; */
+  >>>>>>>9c91880b76f3fd39dfcb00014036e0f3ccfc8feb
 }
 
 .badge.animate__animated.animate__flipInY.path.a71b3451-cec2-46db-805f-a06ff3cbe07b {
@@ -204,6 +208,11 @@ button.btn.btn-danger {
 /* Contact us page css */
 h3.subTitle {
   font-weight: 200;
+}
+
+#Layer_1 {
+  width: 200px;
+  fill: white;
 }
 
 .container.form {
@@ -253,21 +262,54 @@ textarea.form-control {
 }
 
 .gmap_canvas.w-100 {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 h6.mapTitle {
-    color: #fbfbfb;
-    font-size: 36px;
-    font-family: Raleway;
+  color: #fbfbfb;
+  font-size: 36px;
+  font-family: Raleway;
 }
 
 hr {
-    color: #fbfbfb;
+  color: #fbfbfb;
 }
 
 li.mapItem {
-    height: 40px;
+  height: 40px;
+}
+
+/* contact us */
+i.fa.fa-angle-down {
+  font-size: 50px;
+  color: #2d2e82;
+}
+
+.line {
+  background-color: #2d2e82;
+  width: 6px !important;
+  height: 70px;
+  /* padding-top: 100px; */
+}
+
+.vision {
+  padding-top: 100px;
+}
+
+.col-6.text {
+  text-align: initial;
+  padding-top: 10px;
+  font-family: Raleway;
+  width: 75%;
+}
+
+.row.bg-mision {
+  background-color: #020202 !important;
+}
+
+.col.text-white {
+  padding-top: 100px;
+  padding-left: 100px;
 }
 
 @media only screen and (max-width: 320px) {
