@@ -1,167 +1,57 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-  <title>Styled Maps - Night Mode</title>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-  <style type="text/css">
-    /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-    #map {
-      height: 100%;
-    }
+  <meta charset="utf-8">
+  <title>Test</title>
 
-    /* Optional: Makes the sample page fill the window. */
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-  </style>
-  <script>
-    function initMap() {
-      // Styles a map in night mode.
-      const map = new google.maps.Map(document.getElementById("map"), {
-        center: {
-          lat: 40.674,
-          lng: -73.945
-        },
-        zoom: 12,
-        styles: [{
-            elementType: "geometry",
-            stylers: [{
-              color: "#242f3e"
-            }]
-          },
-          {
-            elementType: "labels.text.stroke",
-            stylers: [{
-              color: "#242f3e"
-            }],
-          },
-          {
-            elementType: "labels.text.fill",
-            stylers: [{
-              color: "#746855"
-            }],
-          },
-          {
-            featureType: "administrative.locality",
-            elementType: "labels.text.fill",
-            stylers: [{
-              color: "#d59563"
-            }],
-          },
-          {
-            featureType: "poi",
-            elementType: "labels.text.fill",
-            stylers: [{
-              color: "#d59563"
-            }],
-          },
-          {
-            featureType: "poi.park",
-            elementType: "geometry",
-            stylers: [{
-              color: "#263c3f"
-            }],
-          },
-          {
-            featureType: "poi.park",
-            elementType: "labels.text.fill",
-            stylers: [{
-              color: "#6b9a76"
-            }],
-          },
-          {
-            featureType: "road",
-            elementType: "geometry",
-            stylers: [{
-              color: "#38414e"
-            }],
-          },
-          {
-            featureType: "road",
-            elementType: "geometry.stroke",
-            stylers: [{
-              color: "#212a37"
-            }],
-          },
-          {
-            featureType: "road",
-            elementType: "labels.text.fill",
-            stylers: [{
-              color: "#9ca5b3"
-            }],
-          },
-          {
-            featureType: "road.highway",
-            elementType: "geometry",
-            stylers: [{
-              color: "#746855"
-            }],
-          },
-          {
-            featureType: "road.highway",
-            elementType: "geometry.stroke",
-            stylers: [{
-              color: "#1f2835"
-            }],
-          },
-          {
-            featureType: "road.highway",
-            elementType: "labels.text.fill",
-            stylers: [{
-              color: "#f3d19c"
-            }],
-          },
-          {
-            featureType: "transit",
-            elementType: "geometry",
-            stylers: [{
-              color: "#2f3948"
-            }],
-          },
-          {
-            featureType: "transit.station",
-            elementType: "labels.text.fill",
-            stylers: [{
-              color: "#d59563"
-            }],
-          },
-          {
-            featureType: "water",
-            elementType: "geometry",
-            stylers: [{
-              color: "#17263c"
-            }],
-          },
-          {
-            featureType: "water",
-            elementType: "labels.text.fill",
-            stylers: [{
-              color: "#515c6d"
-            }],
-          },
-          {
-            featureType: "water",
-            elementType: "labels.text.stroke",
-            stylers: [{
-              color: "#17263c"
-            }],
-          },
-        ],
-      });
-    }
-  </script>
+  <meta name="viewport" content="initial-scale=1, minimal-ui">
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="../css/animate.css">
 </head>
-
 <body>
-  <div id="map"></div>
 
-  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmshj-3wJYqlsDmjiKH6OHOMyYwJPbHQE&callback=initMap&libraries=&v=weekly" async></script>
+  <header class="site__header island">
+    <div class="wrap">
+      <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">Animate.css</h1></span>
+
+    </div>
+  </header>
+
+  <main class="site__content island" role="content">
+    <div class="wrap">
+      <form>
+
+        <select class="input input--dropdown js--animations">
+
+          <optgroup label="Back Entrances">
+            <option value="backInDown">backInDown</option>
+            <option value="backInLeft">backInLeft</option>
+            <option value="backInRight">backInRight</option>
+            <option value="backInUp">backInUp</option>
+          </optgroup>
+          <optgroup label="Back Exits">
+            <option value="backOutDown">backOutDown</option>
+            <option value="backOutLeft">backOutLeft</option>
+            <option value="backOutRight">backOutRight</option>
+            <option value="backOutUp">backOutUp</option>
+          </optgroup>
+          <optgroup label="Twist Entrances">
+            <option value="twistInDown">twistInDown</option>
+            <option value="twistInLeft">twistInLeft</option>
+            <option value="twistInRight">twistInRight</option>
+            <option value="twistInUp">twistInUp</option>
+          </optgroup>
+          <optgroup label="Twist Exits">
+            <option value="twistOutDown">twistOutDown</option>
+            <option value="twistOutLeft">twistOutLeft</option>
+            <option value="twistOutRight">twistOutRight</option>
+            <option value="twistOutUp">twistOutUp</option>
+          </optgroup>
+        </select>
+
+        <button class="butt js--triggerAnimation">Animate it</button>
+      </form>
+    </div>
+  </main>
+
 </body>
-
 </html>
