@@ -111,8 +111,11 @@ button.btn.btn-danger {
 }
 
 .main-banner .caption {
-  padding: 15% 0% 15% 0%;
+  padding: 15% 0% 10% 0%;
+
 }
+
+
 
 .card {
   z-index: -1;
@@ -292,24 +295,67 @@ i.fa.fa-angle-down {
   /* padding-top: 100px; */
 }
 
+
+/* About US Page CSS*/
+
 .vision {
-  padding-top: 100px;
+  padding-top: 30%;
+  padding-left: 13%;
+  padding-right:  13%;
+
 }
 
 .col-6.text {
   text-align: initial;
-  padding-top: 10px;
+  padding: 0px 10px;
   font-family: Raleway;
   width: 75%;
+  height: 40px;
+  border-left: thick solid #009bdf;
+}
+.our {
+    font-weight: 800 !important;
+
+}
+.subtext {
+  font-weight: 400;
+  padding-top: 25px;
+  width: 90%;
+  color:#828282;
+}
+.subtext2 {
+  font-weight: 400;
+  padding-top: 25px;
+  width: 90%
 }
 
+.textVision {
+  font-weight: 300;
+
+}
 .row.bg-mision {
   background-color: #020202 !important;
+  padding: 0px;
+}
+.sectionmission {
+  padding-top: 30%;
+  padding-left: 27%;
+  color: #E0E0E0;
 }
 
 .col.text-white {
   padding-top: 100px;
   padding-left: 100px;
+}
+
+.about-banner .caption {
+  padding: 23% 0% 10% 0%;
+
+}
+
+.cover-icon{
+
+
 }
 
 @media only screen and (max-width: 320px) {
